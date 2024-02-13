@@ -10,7 +10,7 @@ click==8.1.7
 colorama==0.4.6
 contourpy==1.2.0
 cycler==0.12.1
-Django==3.1.13
+Django==4.2.10
 Flask==3.0.2
 flatbuffers==23.5.26
 fonttools==4.47.2
