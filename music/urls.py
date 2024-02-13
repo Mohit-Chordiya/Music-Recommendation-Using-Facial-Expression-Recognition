@@ -16,6 +16,8 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from music import views
+from music import settings
+import static
 
 urlpatterns = [
     path('admin-panel/', admin.site.urls),
@@ -28,3 +30,4 @@ urlpatterns = [
     path('spotify/',views.spotifyApi,name='spotifyApi'),
     path('stop_streaming/', views.stop_streaming, name='stop_streaming'),
 ]
+
